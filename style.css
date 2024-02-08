@@ -1,6 +1,6 @@
 body{
     background-color: #f4f4fc;
-   /* display: flex;*/
+
    /* align-items: center;*/
 }
 
@@ -12,18 +12,10 @@ main{
 }
 
 .container-derecha{
-    height: 80%;
-    width: auto;
+    
     flex-basis: calc(33.3% - 4rem) ;
-  
-    font-size: 20px;
-    font-weight: bold;
-    /*width: 400px;
-height: 940px;
-top: 40px;
-left: 1000px;
-border-radius: 32px;*/
-
+    background-color: white;
+    border-radius: 10px;
 }
 
 .container-izquierda{
@@ -34,77 +26,70 @@ border-radius: 32px;*/
 
 #texto-izquierda{
     
-   /* border-radius: 10px;
-    width: 90%;
-    height: 90%;
-    background-color: #f4f4fc;
-    border: none;*/
-
-    width: 680px;
-    height: 288px;
-    top: 168px;
-    left: 240px;
-
-    font-family: Inter;
-font-size: 32px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: 0em;
-text-align: left;
-border: none;
-background-color: #f4f4fc;
-color: #0A3871;
-
-
-
-
-}
-
-.container-output{
-    background-color: white;
     border-radius: 10px;
+    width: 90%;
+    height: 70%;
+    background-color: #f4f4fc;
+    border: none;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    background-color: #f4f4fc;
+    color: #0A3871;
+
+
+
+
 }
+
+
 
 .boton-encriptar{
     background-color: darkblue;
     color: white;
-    width: Fixed (328px);
+    width: 45%;
     height: Hug (67px);
     padding: 24px;
     border-radius: 24px;
     gap: 8px;
+    font-size: 24px;
+    border: none;
 
 
 }
 
 .boton-desencriptar{
     color: darkblue;
-    
-    width: Fixed (33%);
+    background-color: rgb(189, 186, 186);
+    width: 45%;
     height: Hug (67px);
     padding: 24px;
     border-radius: 24px;
     gap: 8px;
     border: 1px;
+    font-size: 24px;
+  
 }
 
 .botones{
     width: Fixed (680px);
-height: Hug(67px);
-top: 700px;
-left: 240px;
-gap: 24px;
-padding: 70px;
-
+    height: Hug(67px);
+    top: 885px;
+    left: 240px;
+    gap: 24px;
 }
 
+
 .btn-copiar{
-   
-    color: red;
+    color: darkblue;
     background-color: #f4f4fc;
     width: 90%;
     height: 50px;
     border-radius: 10px;
-    left: 50%;
+    font-size: 24px;
     margin: 20px 10px 0 15px;
-}
+    border: none;
