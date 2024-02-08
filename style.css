@@ -12,17 +12,17 @@ main{
 }
 
 .container-derecha{
-    /*height: 80%;
+    height: 80%;
     width: auto;
     flex-basis: calc(33.3% - 4rem) ;
-    display: block;
+  
     font-size: 20px;
-    font-weight: bold;*/
-    width: 400px;
+    font-weight: bold;
+    /*width: 400px;
 height: 940px;
 top: 40px;
 left: 1000px;
-border-radius: 32px;
+border-radius: 32px;*/
 
 }
 
