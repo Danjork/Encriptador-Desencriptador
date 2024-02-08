@@ -94,11 +94,13 @@ main{
     margin: 20px 10px 0 15px;
     top: 1000px;
     margin: 0 0 0 15px;
+    display: none;
 }
 
 .btn-copiar:hover{
     background-color: rgb(216, 223, 232, 3);
     cursor: pointer;
+   
 }
 
 #evento:hover{
@@ -114,4 +116,16 @@ main{
 }
 ::placeholder{
     color: darkblue;
+}
+
+footer{
+    text-align: center;
+  /*  background: url(imagenes/bg.jpg);*/
+    padding:40px;
+}
+
+.copyright{
+    color:black;
+    font-size: 13px;
+    margin:20px;
 }
