@@ -131,31 +131,27 @@ footer{
 }
 
 
-.principal main {
-    margin: 10px;
-    height: 100px;
-    width: 200px;
-}
+* {
+    box-sizing: border-box;
+  }
+  
+/* Estilos específicos para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+    .principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-izquierda {
+        width: 100%;
+    }
 
-.container-izquierda {
-    width: 50%;
-    display: inline-block;
-    background-color: green;
-}
-
-.container-derecha {
-    width: 50%;
-    display: inline-block;
-    background-color: blue;
-}
-
-
-
-@media screen and (max-width: 800px) {
-
-    .container-izquierda,
-    .container-derecha
-    {
+    .container-derecha{
         width: 50%;
     }
+    
+.container-output img{
+
+display: none;
+}
 }
