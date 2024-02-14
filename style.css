@@ -45,8 +45,17 @@ h4{
 .botones input{
     padding: 2.4rem;
     border-radius: 24px;
-    width: 100%;
-    margin-bottom: 2rem;
+    gap: 8px;
+    border: 1px;
+    font-size: 24px;
+    margin: 20px 10px 0 15px;
+    top: 1000px;
+    margin: 0 0 0 15px;
+    display: none;
+}
+
+.btn-copiar:hover{
+    background-color: rgb(216, 223, 232, 3);
     cursor: pointer;
 }
 
@@ -68,52 +77,18 @@ h4{
     background-color: #F3F5FC;
     border-color: #0a3871;
 }
+::placeholder{
+    color: darkblue;
+}
 
-
-/*container derecha*/
-.container-con-imagen{
-    background-color: white;
+footer{
     text-align: center;
-    padding: 32px;
-    border-radius: 3.2rem;
-    margin: 96px 16px 51px -13px;
-    box-shadow: 0rem 2.4rem 3.2rem -0.8rem rgba(0, 0, 0, 0.08);
-}
-/*
-.container-con-imagen img{
-    display: none;
-}*/
-
-.container-con-resultado{
-    height: 100%;
-    display: none;
+  /*  background: url(imagenes/bg.jpg);*/
+    padding:40px;
 }
 
-.container-con-resultado textarea{
-    resize: none;
-    width: 100%;
-    height: 86%;
-    box-sizing: border-box;
-    background-color: white;
-    border: none;
-    padding: 1.5rem;
-    font-size: 2rem;
-    color: black;
-}
-
-
-.container-izquierda{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.container-derecha{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    border-radius: 2rem;
-    
+.copyright{
+    color:black;
+    font-size: 13px;
+    margin:20px;
 }
