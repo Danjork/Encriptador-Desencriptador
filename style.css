@@ -13,7 +13,7 @@ main{
 
 .container-derecha{
     
-    flex-basis: calc(33.3% - 4rem) ;
+    flex-basis: 33.3%;
     background-color: white;
     border-radius: 10px;
     text-align: center;
@@ -50,6 +50,22 @@ main{
     width: 90%;
     border: none;
     outline: none;
+    z-index: 0;
+}
+
+.container-con-imagen {
+    position: relative;
+}
+
+.container-con-imagen img {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: 1; /* Asegura que la imagen esté por encima del textarea */
+}
+
+.container-con-imagen textarea {
+    z-index: 0; /* Asegura que el textarea esté detrás de la imagen */
 }
 
 #boton-encriptar{
@@ -98,7 +114,7 @@ main{
     margin: 20px 10px 0 15px;
     top: 1000px;
     margin: 0 0 0 15px;
-    display: none;
+    
 }
 
 .btn-copiar:hover{
@@ -135,14 +151,22 @@ footer{
 }
 
 /*Responsivo*/
-@media only screen and(max-width:768px){
+@media only screen and (max-width:768px){
     .principal{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .container-izquierda, .container-derecha{
+    .container-izquierda{
         width: 100%;
+    }
+    .container-derecha{
+        width: 50%;
+        float: right;
+        padding: 0 24px 24px 0;
+    }
+    .container-con-imagen {
+        text-align: center;
     }
 
     .container-con-imagen img{
