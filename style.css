@@ -127,3 +127,19 @@ footer{
     font-size: 13px;
     margin:20px;
 }
+
+/*Responsivo*/
+@media only screen and(max-width:768px){
+    .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-izquierda, .container-derecha{
+        width: 100%;
+    }
+
+    .container-derecha img{
+        display: none;
+    }
+}
